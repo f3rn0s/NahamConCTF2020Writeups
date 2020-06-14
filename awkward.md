@@ -32,7 +32,7 @@ s = socc.socc("jh2i.com", 50025)
 
 def gen_commands(command, line):
     commands = []
-    for i in range(0, 100):
+    for offset in range(0, 100):
         commands.append(
         # This defines a function ord
         # awk 'BEGIN{for(n=0;n<256;n++)ord[sprintf("%c", n)]=n}
